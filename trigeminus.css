@@ -12,3 +12,20 @@ body {
   line-height: 1.5;
   text-align: center;
   }
+
+  /* Topnav */
+
+  #topnav {
+    display: flex;
+    justify-content: center;
+  }
+
+  #topnav ul {
+    list-style: none;
+    margin-bottom: 0px;
+    padding: 0;
+    }
+
+  #topnav li {
+    float: left;
+    }
