@@ -13,6 +13,18 @@ body {
   text-align: center;
   }
 
+  /* Header-section */
+
+#header-section div {
+  padding-top: 25px;
+  padding-right: 1000px;
+}
+
+#header-section img {
+  width: 100%;
+  height: 90px;
+}
+
   /* Topnav */
 
   #topnav {
