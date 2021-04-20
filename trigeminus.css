@@ -27,13 +27,14 @@ body {
     align-items: center;
   }
 
-  .disappear {
+  .disappear{
     animation: vanish 1s forwards;
   }
   @keyframes vanish {
     100%{
       opacity: 0;
       visibility: hidden;
+    }
   }
 
   /* Header section */
