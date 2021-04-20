@@ -15,7 +15,7 @@ body {
 
   /* Preloader */
 
-  .preloader {
+  .preloader{
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@ body {
   }
 
   .disappear{
-    animation: vanish 1s forwards;
+    animation: vanish 2s forwards;
   }
   @keyframes vanish {
     100%{
