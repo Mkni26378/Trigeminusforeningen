@@ -8,7 +8,7 @@ function validation (){
 
   error_message.style.padding = "10px";
 
-  if(name.length <5){
+  if(name.length <2){
     text = "Indsæt navn";
     error_message.innerHTML = text;
     return false;
