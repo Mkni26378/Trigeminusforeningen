@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kontaktformular</title>
+<link rel="stylesheet" type="text/css" href="trigeminus.css">
+<script src="kontakt.js" defer></script>
+</head>
+
+<header id="header-section" class="header">
+ <div class="header-logo">
+     <img src="trigeminuslogo.png" class="logo" alt="logo">
+ </div>
+</header>
+
+<body>
+  <div class="wrapper">
+    <h2>Kontakt os</h2>
+    <div id="error_message"></div>
+    <form id="myform" onsubmit="return validation()">
+      <div class="input_field">
+        <input type="text" placeholder="Navn" id="name">
+      </div>
+      <div class="input_field">
+        <input type="text" placeholder="Telefonnummer" id="number">
+      </div>
+      <div class="input_field">
+        <input type="text" placeholder="E-mail" id="email">
+      </div>
+      <div class="input_field">
+        <textarea id="message" placeholder="Besked"></textarea>
+      </div>
+      <div class="btn">
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
