@@ -26,8 +26,8 @@ function validation (){
     return false;
   }
 
-  if(message.length <=100){
-    text = "Indsæt besked på mindst 100 tegn";
+  if(message.length <=50){
+    text = "Indsæt besked på mindst 50 tegn";
     error_message.innerHTML = text;
     return false;
   }
