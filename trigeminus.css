@@ -79,31 +79,41 @@ body {
     margin-top: -25px;
   }
 
-  /* Section a */
+  /* Splitscreen landingpage */
 
-  #section-a {
-    margin-top: 100px;
-    margin-left: 25px;
-  }
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-  #section-a h1 {
-    width: 40%;
-  }
+/* Left */
 
-  #section-a p {
-    width: 40%;
-  }
+.left {
+  left: 0;
+  background-color: #ffffff;
+}
 
-  /* Section b */
+/* Right */
 
-  #section-b {
-    margin-top: 100px;
-    margin-right: 25px;
-  }
+.right {
+  right: 0;
+  background-color: #ffffff;
+}
 
-  #section-b p {
-    width: 50%;
-  }
+/* Position splitscreen landingpage */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
   /* Footer */
 
@@ -111,6 +121,10 @@ body {
     width: 100%;
     height: 150px;
     background-color: #3a432a;
+  }
+
+  #footer p {
+    color: #ffffff;
   }
 
   /* Kontaktformular */
