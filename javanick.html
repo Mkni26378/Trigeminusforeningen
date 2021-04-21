@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="menu">
+           
+            <nav>
+                <div id="topline"></div>
+
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        var topline = document.querySelector('#topline');
+        var item = document.querySelectorAll('nav a');
+        function indicator(e) {
+            topline.style.left = e.offsetLeft + "px";
+            topline.style.width = e.offsetwidth + "px";
+        }
+        item.forEach(link => {
+            link.addEventListener('mouseover', (e) => {
+                indicator(e.target);
+            })
+        })
+        
+    </script>
+</body>
+</html>
