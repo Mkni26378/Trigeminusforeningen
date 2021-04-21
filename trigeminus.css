@@ -28,7 +28,7 @@
   }
 
   .disappear{
-    animation: vanish 2s forwards;
+    animation: vanish 2.5s forwards;
   }
   @keyframes vanish {
     100%{
@@ -116,8 +116,9 @@
 }
 
 .centered img {
-  width: 300px;
+  width: 400px;
   height: 300px;
+  border-style: hidden;
 }
 
 .centered h2,
